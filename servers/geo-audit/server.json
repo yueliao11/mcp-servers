@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "tech.geooptimizer/geo-audit",
+  "title": "GEO Optimizer — AI Search & Robots.txt Audit",
+  "description": "Live GEO readiness audit: check JSON-LD schemas, page speed, and AI crawler robots.txt access.",
+  "websiteUrl": "https://geooptimizer.tech/",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/yueliao11/mcp-servers",
+    "source": "github",
+    "subfolder": "servers/geo-audit"
+  },
+  "icons": [
+    {
+      "src": "https://geooptimizer.tech/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://geooptimizer.tech/api/mcp"
+    }
+  ]
+}

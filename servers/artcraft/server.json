@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.getartcraft/rust-creative-suite",
+  "title": "GetArtCraft — Open-Source Rust Creative Suite MCP",
+  "description": "Map Adobe Creative Cloud & CAD apps to open-source Rust/WebAssembly alternatives in ArtCraft.",
+  "websiteUrl": "https://getartcraft.net/",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/yueliao11/mcp-servers",
+    "source": "github",
+    "subfolder": "servers/artcraft"
+  },
+  "icons": [
+    {
+      "src": "https://getartcraft.net/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getartcraft.net/api/mcp"
+    }
+  ]
+}

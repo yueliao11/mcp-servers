@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.claudecodemods/mods-registry",
+  "title": "ClaudeCodeMods Registry MCP",
+  "description": "Search Claude Code mods, MCP servers, hooks, skills, and install guides on claudecodemods.net.",
+  "websiteUrl": "https://claudecodemods.net/",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/yueliao11/mcp-servers",
+    "source": "github",
+    "subfolder": "servers/claudecodemods"
+  },
+  "icons": [
+    {
+      "src": "https://claudecodemods.net/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://claudecodemods.net/api/mcp"
+    }
+  ]
+}

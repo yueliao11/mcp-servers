@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.getscentai/fragrance-finder",
+  "title": "ScentAI Fragrance Finder MCP",
+  "description": "Search perfumes, fragrance notes, accords, and side-by-side scent comparisons on getscentai.com.",
+  "websiteUrl": "https://getscentai.com/",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/yueliao11/mcp-servers",
+    "source": "github",
+    "subfolder": "servers/scentai"
+  },
+  "icons": [
+    {
+      "src": "https://getscentai.com/mcp-icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getscentai.com/api/mcp"
+    }
+  ]
+}
