@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "org.bctrainingnavigator/bc-training",
+  "title": "BC Training Navigator — Grants & PTIRU College Directory",
+  "description": "Search PTIRU-accredited BC career colleges, training programs, and WorkBC/StudentAid BC grants.",
+  "websiteUrl": "https://bctrainingnavigator.org/",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/yueliao11/mcp-servers",
+    "source": "github",
+    "subfolder": "servers/bc-training"
+  },
+  "icons": [
+    {
+      "src": "https://bctrainingnavigator.org/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    },
+    {
+      "src": "https://bctrainingnavigator.org/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bctrainingnavigator.org/api/mcp"
+    }
+  ]
+}
